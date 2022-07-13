@@ -14,13 +14,13 @@ header {
     background-color: white;
     box-shadow: 5px 10px 5px #ddd;
     width: 700px;
-    border-radius: 15px;
-    padding: 10px 20px;
-    margin: auto;
+    border-radius: 10px;
+    padding: 1em;
+    margin: 3em auto;
 }
 
 main h5 {
-    color: #dd3232;
+    color: red;
 }
 
 a {
@@ -32,7 +32,13 @@ h1 {
     text-align: center;
 }
 
-li {
+p {
+    font-size: 0.9em;
+    padding: 0 10px;
+    text-align: justify;
+}
+
+nav li {
     list-style: none;
     display: inline-block;
     padding: 0px 15px;
@@ -44,4 +50,19 @@ nav {
     border-bottom-style: solid;
     border-top-color: lightgray;
     border-bottom-color: lightgray;
+    position: sticky;
+    top: 0px;
+    background: white;
+}
+
+.more-articles {
+    border-top: 1px solid #eee;
+    margin-top: 1.5em;
+    text-align: center;
+}
+
+.more-articles section {
+    display: inline-block;
+    width: 45%;
+    margin: 0 1em;
 }
